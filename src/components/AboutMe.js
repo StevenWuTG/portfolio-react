@@ -1,9 +1,12 @@
 import React from 'react'
+import { useState } from 'react'
 
-const AboutMe = () => {
+const AboutMe = (props) => {
+  
     return (
         <div>
             <h1>About ME component</h1>
+           
         </div>
     )
 }
