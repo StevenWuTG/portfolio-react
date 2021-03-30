@@ -13,6 +13,9 @@ body {
 }
 
 /************** NAVBAR ***************/
+.navbar {
+  height: 17vh;
+}
 
 .logo{
   margin-top: 5% ;
@@ -61,7 +64,7 @@ nav ul li {
   background: url(background3.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 83vh;
 }
 
 .main-info {
@@ -93,4 +96,28 @@ nav ul li {
 .typed-text {
   font-size: 60px;
   color: var(--primary-white);
+}
+
+/************** About Me ***************/
+
+.about-me {
+  background-color: black;
+  display: flex;
+  height: 83vh;
+}
+
+/************** Portfolio Component ***************/
+
+.portfolio {
+  background-color: black;
+  display: flex;
+  height: 83vh;
+}
+
+/************** Contact Me ***************/
+
+.contact-me {
+  background-color: black;
+  display: flex;
+  height: 83vh;
 }

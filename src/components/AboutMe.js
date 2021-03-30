@@ -4,7 +4,7 @@ import { useState } from 'react'
 const AboutMe = (props) => {
   
     return (
-        <div>
+        <div className="about-me">
             <h1>About ME component</h1>
            
         </div>
