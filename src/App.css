@@ -15,6 +15,7 @@ body {
 /************** NAVBAR ***************/
 .navbar {
   height: 17vh;
+  position: absolute;
 }
 
 .logo{
@@ -103,15 +104,23 @@ nav ul li {
 .about-me {
   background-color: black;
   display: flex;
-  height: 83vh;
+  max-height: 83vh;
 }
 
 /************** Portfolio Component ***************/
 
 .portfolio {
-  background-color: black;
   display: flex;
-  height: 83vh;
+  justify-content: space-between !important;
+  flex-direction: column;
+  max-height: 83vh;
+  max-width: 100vw;
+  left: 50%;
+}
+
+.portfolio-player {
+  max-width: 100%;
+
 }
 
 /************** Contact Me ***************/
