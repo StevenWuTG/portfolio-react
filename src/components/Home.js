@@ -3,9 +3,9 @@ import Typed from 'react-typed'
 
 const Home = () => {
     return (
-        <div className="header-wraper">
+        <div className="main-wrapper">
             <div className="main-info">
-                <h1>full stack developer with knowledge in JS and Rails</h1>
+                <h1>full stack developer with expertise in JavaScript and Ruby</h1>
                 <Typed
                     className="typed-text"
                     strings={["Web Design", "React UI", "RESTful Apis"]}

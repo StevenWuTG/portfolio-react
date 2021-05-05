@@ -15,13 +15,14 @@ body {
 /************** NAVBAR ***************/
 .navbar {
   height: 17vh;
-  position: absolute;
+  position:relative;
 }
 
 .logo{
   margin-top: 5% ;
   width: 150px;
 }
+
 /************** Nav Links ***************/
 
 nav a.nav-link{
@@ -29,6 +30,10 @@ nav a.nav-link{
   letter-spacing: 1px;
   cursor: pointer;
   border-top: 5px solid;
+  background-color: black;
+  color: var(black);
+  position: relative;
+  z-index: 2;
 }
 
 nav ul li {
@@ -38,7 +43,8 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 12px;
   margin-left: 12px;
-  color: var(--primary-white) !important;
+  color: var(--primary-blue) !important;
+  background-color: var(--primary-dark);
   border-top: 5px solid var(--primary-dark);
   
 }
@@ -51,16 +57,20 @@ nav ul li {
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 5px solid var(--primary-blue) !important;
+  background-color: var(--primary-dark);
+  color: var(black);
 }
 
 .navbar-nav > li > a:hover {
+  background-color: var(--primary-dark);
   border-top: 5px solid var(--primary-blue) !important;
+  color: var(black);
   
 }
 
 /************** Header ***************/
 
-.header-wraper {
+.main-wrapper {
   position:relative;
   background: url(background3.jpeg) no-repeat;
   background-size: cover;
@@ -107,15 +117,22 @@ nav ul li {
   max-height: 83vh;
 }
 
+.about-text {
+  color: var(--primary-white);
+}
+
 /************** Portfolio Component ***************/
 
 .portfolio {
-  display: flex;
-  justify-content: space-between !important;
+  display:flex;
+  position: auto;
+  left: 0;
+  right: 0;
   flex-direction: column;
-  max-height: 83vh;
-  max-width: 100vw;
-  left: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .portfolio-player {
