@@ -143,9 +143,20 @@ nav ul li {
 /************** Contact Me ***************/
 
 .contact-me {
-  justify-content: center;
+  /* justify-content: center;
   display: flex;
-  height: 83vh;
+  */
+  
+  height: 50vh;
+  display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
