@@ -1,7 +1,7 @@
 
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import React, {useState} from "react"
+import React from "react"
 import Navbar from "./components/Navbar"
 import AboutMe from "./components/AboutMe"
 import Portfolio from "./components/Portfolio"
