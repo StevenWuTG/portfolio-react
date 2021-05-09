@@ -11,12 +11,12 @@ const AboutMe = (props) => {
                 </div>
 
                 <p className="about-text">
-                    As a avid gamer, it has always been one of my dreams to learn how to program and I fell in love after writing my first few lines of code. A day later, I've decided to turn my dreams into reality but enrolling in The Flatiron School's Immersive Software Engineering bootcamp.
+                    As a avid gamer, it has always been one of my dreams to learn how to program and I fell in love after writing my first few lines of code. A day later, I've decided to turn my dreams into reality by enrolling in The Flatiron School's Immersive Software Engineering bootcamp.
                     
                 </p>
 
                 <p className="about-text">
-                    Along with my coding knowledge, I have over twelve years of experience in the restaurant industry, I spent the last six years as a manager for a busy ramen restaurant in midtown Manhattan where I handled employee scheduling, inventory management and the daily front house operation.
+                    Along with my coding knowledge, I have over twelve years of experience in the restaurant industry with the last six years as a manager for a busy ramen restaurant in midtown Manhattan where I handled duties such as employee scheduling, inventory management and the daily front house operation.
                 </p>
                 <div className="about-text">
                     <h2>Skills</h2>    
