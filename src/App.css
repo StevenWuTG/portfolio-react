@@ -84,21 +84,23 @@ nav ul li {
   
 }
 
-/************** Header ***************/
+/************** Main ***************/
 
 .main-wrapper {
   position:relative;
   background-color: black;
+  background: url(background5.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 83vh;
   display:flex;
+  flex-direction: column;
+  width: 100vw;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   justify-content: center;
-  background: url(background5.jpeg);
   text-align: center;
 }
 
@@ -136,24 +138,23 @@ nav ul li {
 
 /************** About Me ***************/
 
-.about-me {
-
-  display:flex;
-  /* background-color: black; */
-  flex-direction: column;
-  /* margin-top: 5%; */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  justify-content: center;
-  text-align: center;
-}
 
 .about-text {
-  max-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto !important;
+  float: none !important;
+  /* min-width: 600px; */
+  left: 0;
+  right: 0;
+  width: 100vw;
   font-size: larger;
   color: var(--primary-white);
+
   
 }
 
@@ -170,6 +171,7 @@ nav ul li {
 
 .about-icons{
   display: flex;
+  position: relative;
   flex-direction: row;
   justify-content: center;
 }
@@ -195,17 +197,35 @@ nav ul li {
 
 .portfolio {
   display:flex;
-  position: absolute;
+  /* width: 100vw; */
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   background-position: center;
+
   color: var(--primary-white);
   background: black;
 
   
+}
+
+.portfolio-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto !important;
+  float: none !important;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  font-size: larger;
+  color: var(--primary-white);
 }
 
 .portfolio-player {
