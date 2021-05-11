@@ -1,46 +1,49 @@
-import React from "react"
-import logo from "../logo.png"
+import React, { useState} from 'react'
 import profile from "../profile2.png"
-import anime from "../animeprofile1.jpeg"
-
-
-import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
-
 
 const Navbar = () => {
+
+    const [clicked, setClicked] = useState(false)
+    
+    const clickMenu = () => {
+        setClicked(!clicked)
+        console.log(clicked)
+    }
+
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-            <div className="container">
+        <>
+        <nav className="NavbarItems">
+            <img className="nav-photo" src={profile} alt="nav-photo" />
 
-            <a className="navbar-brand" href="/"><img className="logo" src={profile} alt="logo" /></a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            {/* <span className="navbar-toggler-icon"></span> */}
-            <FontAwesomeIcon icon={faBars} style={{ color: "white" }}/>
-            </button>
+            
+            <div className="menu-icon" onClick={clickMenu}>
+                <i className={clicked ? "fas fa-times fa-2x" : "fas fa-bars fa-2x"}>
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                </i>
 
-                <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="/">Home 
-                        <span className="sr-only">(current)</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/about">about me</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/portfolio">portfolio</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/contact">contact</a>
-                    </li>
-                </ul>
-                
             </div>
 
-        </div>
+            <ul className={clicked? "nav-menu active" : "nav-menu"}>
+                    <li className="nav-links">
+                        <a className="" href="/">Home 
+                        </a>
+                    </li>
+                    <li className="nav-links">
+                        <a className="" href="/about">about me</a>
+                    </li>
+                    <li className="nav-links">
+                        <a className="" href="/portfolio">portfolio</a>
+                    </li>
+                    <li className="nav-links">
+                        <a className="" href="/contact">contact</a>
+                    </li>
+                </ul>
+
+                
+
         </nav>
+            
+        </>
     )
 }
 
