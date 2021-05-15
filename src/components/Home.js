@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="main-wrapper">
             <div className="main-info">
-                <h1>full stack developer with expertise in JavaScript and Ruby</h1>
+                <h1>full stack developer, part time gamer</h1>/h1>
                 <Typed
                     className="typed-text"
                     strings={["Web Design", "React UI", "RESTful Apis"]}

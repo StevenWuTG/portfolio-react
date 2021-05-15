@@ -43,14 +43,14 @@ const ContactMe = () => {
                 </div>
                 
                 <form className="contact-form" onSubmit={sendEmail}>
-                    <input type="hidden" name="contact_number" />
+                    {/* <input type="hidden" name="contact_number" /> */}
                     <label>Subject:</label>
                     <input type="text" name="subject" />
-                    <label>Name</label>
+                    <label>Name:</label>
                     <input type="text" name="name" />
-                    <label>Email</label>
+                    <label>Email:</label>
                     <input type="email" name="email" />
-                    <label>Message</label>
+                    <label>Message:</label>
                     <textarea name="message" />
                     <input className="btn btn-primary"  type="submit" value="Send" />
                 </form>

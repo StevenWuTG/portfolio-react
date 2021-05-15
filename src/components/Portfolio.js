@@ -14,7 +14,7 @@ const Portfolio = () => {
             <br></br>
 
             <h1>Landmarkers</h1>
-            <p>A webapp built during the pandemic for sharing our old favorite locations/landmarks with friends and family </p>
+            <p>A webapp built during the pandemic for sharing our favorite locations/landmarks with friends and family </p>
             <ReactPlayer className="portfolio-player" url="https://www.youtube.com/watch?v=81gCyDGc3vg&t=37s" controls />
             <br></br>
             
