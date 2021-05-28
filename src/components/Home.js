@@ -8,7 +8,7 @@ const Home = () => {
                 <h1>full stack developer, part time gamer</h1>/h1>
                 <Typed
                     className="typed-text"
-                    strings={["Web Design", "React UI", "RESTful Apis"]}
+                    strings={["Web Design", "React UI", "RESTful Apis", "JavaScript", "Ruby"]}
                     typeSpeed={80}
                     backSpeed={40}
                     loop={true}
