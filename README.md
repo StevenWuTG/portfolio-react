@@ -1,14 +1,13 @@
-# Getting Started with Create React App
+# My personal site created in React JS
 
 
-## Available Scripts
+## Libraries used
 
-In the project directory, you can run:
+### React Router
+Used to handle the routing between different sections of the site.
 
-### `yarn start`
+### EmailJS API
+Used to create a feature to contact me directly on my site without any external credentials.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+
