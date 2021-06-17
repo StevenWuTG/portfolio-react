@@ -114,7 +114,7 @@ nav ul li {
 .main-wrapper {
   position:relative;
   background-color: black;
-  background: url(background5.jpeg) no-repeat;
+  background: url(images/background5.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 83vh;

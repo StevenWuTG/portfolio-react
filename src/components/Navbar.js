@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-import profile from "../profile2.png"
+import profile from "../images/profile2.png"
 
 const Navbar = () => {
 
